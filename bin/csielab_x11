@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Conneting to CSIE LAB (Enable X11Forwarding) ..."
+ssh -X aminzai@140.127.194.103
