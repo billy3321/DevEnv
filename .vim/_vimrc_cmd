@@ -8,5 +8,3 @@
 " Addition Command
 "========================================== 
 
-" Reload vimrc 
-com! ReloadConfig source $MYGVIMRC
