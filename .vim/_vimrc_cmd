@@ -1,0 +1,12 @@
+"========================================== 
+" Author    : Kang-min Wang ( Aminzai )
+" E-mail    : lagunawang --AT-- Gmail.com
+"==========================================
+"
+"
+"========================================== 
+" Addition Command
+"========================================== 
+
+" Reload vimrc 
+com! ReloadConfig source $MYGVIMRC

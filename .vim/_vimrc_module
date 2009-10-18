@@ -1,0 +1,47 @@
+"========================================== 
+" Author    : Kang-min Wang ( Aminzai )
+" E-mail    : lagunawang --AT-- Gmail.com
+"==========================================
+"
+" Add Modules
+" 1.NERDTree
+" 2.NERD Commenter
+"==========================================
+" Module Seting
+"==========================================
+
+"==========================================
+" NERDTree
+"==========================================
+nmap <leader>e :<C-u>NERDTree<CR>
+
+
+"==========================================
+" Taglist
+"==========================================
+nmap <leader>t :<C-u>Tlist<CR>
+
+"==========================================
+"Set Autocomplete
+"==========================================
+autocmd Filetype c set omnifunc=ccomplete#Complete
+autocmd Filetype cpp set omnifunc=cppcomplete#Complete 
+
+"==========================================
+" Pyton Syntax
+"==========================================
+let python_highlight_all=1
+
+"==========================================
+" JavaComplete - Omni Completion for Java
+"==========================================
+if has("autocmd")
+  autocmd Filetype java setlocal omnifunc=javacomplete#Complete
+endif
+inoremap <buffer> <C-X><C-U> <C-X><C-U><C-P>
+"inoremap <buffer> <C-S-Space> <C-X><C-U><C-P>
+
+"==========================================
+" Latex Suite
+"==========================================
+let g:tex_flavor='latex'

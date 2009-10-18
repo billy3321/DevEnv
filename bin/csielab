@@ -1,3 +1,0 @@
-#!/bin/bash
-echo "Conneting to CSIE LAB..."
-ssh aminzai@140.127.194.103

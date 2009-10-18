@@ -1,4 +1,0 @@
-#!/bin/bash
-# That is Let us use ssh tunnel to link to csiesa's server
-echo "Start Connecting....."
-ssh -N -f -L 8000:www.plurk.com:80 laguna@140.127.182.55

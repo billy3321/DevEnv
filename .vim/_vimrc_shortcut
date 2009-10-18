@@ -1,0 +1,53 @@
+"========================================== 
+" Author    : Kang-min Wang ( Aminzai )
+" E-mail    : lagunawang --AT-- Gmail.com
+"==========================================
+"
+"
+"========================================== 
+" Set Shorecut
+"========================================== 
+" Save File
+nmap <c-s> :w<CR>
+imap <c-s> <ESC>:w<CR>i
+
+" Quit
+nmap <leader>q :q<CR>
+
+" Open file by Explore
+nmap <m-o> :Explore<CR>
+
+" Open file by Expore
+nmap <C-m-o> :vsplit<CR>:Explore<CR>
+
+" Winalt Window
+nn <c-=> <c-w>=
+
+" Tab Page
+"nn <C-m-t> :tabnew<CR>
+"nn <C-m-o> :tabnew<CR>:Explore<CR>
+"nn <C-tab> :tabNext<CR>
+nn tn :<C-u>tabnew<CR>
+nn te :<C-u>Texplore<CR>
+nn th :<C-u>tabprev<CR>
+nn tl :<C-u>tabnext<CR>
+nn tc :<C-u>tabclose<CR>
+
+" Shift Tab
+nmap <tab> v>
+nmap <s-tab> v<
+xnoremap <tab> >gv
+"vmap <tab> >gv
+xnoremap <s-tab> <gv
+
+" Command Mode
+cmap <c-a> <home>
+cmap <c-e> <end>
+cnoremap <c-b> <left>
+cnoremap <c-f> <right>
+cnoremap <c-n> <down>
+cnoremap <c-p> <up>
+cnoremap <c-d> <del>
+
+" Add time
+imap      <F2>    <c-r>=strftime("%c")<CR>

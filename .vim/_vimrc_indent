@@ -1,0 +1,36 @@
+"========================================== 
+" Author    : Kang-min Wang ( Aminzai )
+" E-mail    : lagunawang --AT-- Gmail.com
+"==========================================
+"
+"==========================================
+" Indent Setting
+"==========================================
+
+
+
+"==========================================
+" PHP
+"==========================================
+let PHP_autoformatcomment = 1
+"To disable autoformating of comment by default.
+"If set to 0, this script will let the 'formatoptions' setting intact.
+
+let PHP_default_indenting = 1
+" # of sw will be added to the indent of each line of PHP code (non PHP code isn't affected).
+
+"let PHP_removeCRwhenUnix = 1
+"Will make the script automatically remove CR at end of lines (by default this option is unset), NOTE that you MUST remove CR when the fileformat is UNIX else the indentation won't be correct...
+
+let PHP_BracesAtCodeLevel = 1
+"Will indent the '{' and '}' at the same level than the code they contain.
+
+
+
+"==========================================
+" Sh/Bash
+"==========================================
+" let g:sh_indent_case_labels=1 
+" The default(0) indent style is to put the case labels in the same indent level of the case statement. 
+" If you want to increase the indent level of the case labels, just add this line in your .vimrc:
+

@@ -1,3 +1,0 @@
-#!/bin/bash
-echo "Conneting to www.sa.csie.isu.edu.tw....."
-ssh laguna@140.127.182.55
