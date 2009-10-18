@@ -1,0 +1,23 @@
+alias ll='ls -al'
+alias la='ls -A'
+alias l='ls -aCF'
+alias vi='vim'
+alias g='gvim'
+
+
+# dir quickly shortcut
+alias cddocument='cd /media/Data/Documents'
+alias cdstudydata='cd /media/Data/Documents/StudyData'
+alias cdwork='cd /media/Data/Documents/Work'
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    eval "`dircolors -b`"
+    alias ls='ls --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
