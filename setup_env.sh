@@ -25,8 +25,8 @@ EOF
 
 ############ Bash Setup
 
-rm -rf $HOME/bin
-cp -r $PWD/bin $HOME/
+#rm -rf $HOME/bin
+#cp -r $PWD/bin $HOME/
 
 rm -f $HOME/.bashrc
 cp $PWD/.bashrc $HOME
