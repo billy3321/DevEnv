@@ -16,7 +16,7 @@ set nocompatible
 
 " You can also specify a different font, overriding the default font
 if has('gui')
-  set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 10
+  set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 8
   "set guifont=Bitstream\ Vera\ Sans\ Mono\ 12
 endif
 
@@ -121,7 +121,7 @@ set cindent
 set ruler
 
 "Support mouse
-set mouse=a
+" set mouse=a
 
 " Hightlight in Search
 set hlsearch
