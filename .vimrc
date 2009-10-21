@@ -1,3 +1,3 @@
-if filereadable("$HOME/.vim/vim_profile")
-  source $HOME/.vim/vim_profile
+if filereadable("$HOME/.vim/_vimrc")
+  source $HOME/.vim/_vimrc
 endif
