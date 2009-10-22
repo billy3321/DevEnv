@@ -16,7 +16,7 @@ set nocompatible
 
 " You can also specify a different font, overriding the default font
 if has('gui')
-  set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 8
+  set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 10
   "set guifont=Bitstream\ Vera\ Sans\ Mono\ 12
 endif
 
@@ -49,6 +49,11 @@ set wildignore+=*.png,*.jpg,*.gif,*.svg,*.xpm
 " Set Cursor Line
 set cursorline
 
+" Status Line
+set laststatus=2
+"set   statusline=%<%f\ %h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",bom\":\"\")}]\ %-14.(%l,%c%v%)\ %p
+set statusline=File:\ %t\%r%h%w\ [%{&ff},%{&fileencoding},%Y]\ %m%=\ [AscII=\%03.3b]\ [Hex=\%02.2B]\ [Pos=%l,%v,%p%%]\ [LINE=%L]
+
 " Do not redraw while running macros ( much faster )
 set lazyredraw
 
@@ -75,7 +80,7 @@ set fileencodings=utf8,big5,gbk
 "set splitright
 
 "Show Line number
-set number
+"set number
 
 "Set Tab Width
 set tabstop=4
