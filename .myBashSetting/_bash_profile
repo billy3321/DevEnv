@@ -45,5 +45,5 @@ PATH=$PATH:$HOME/bin
 export PATH
 
 #SYMPHONYEDA
-export SYMPHONYEDA="/usr/local/Simili31"
-. "$SYMPHONYEDA/bin/init.sh"
+#export SYMPHONYEDA="/usr/local/Simili31"
+#. "$SYMPHONYEDA/bin/init.sh"
