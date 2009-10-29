@@ -44,6 +44,9 @@ esac
 PATH=$PATH:$HOME/bin
 export PATH
 
+#SVN EDITOR
+export SVN_EDITOR=vim
+
 #SYMPHONYEDA
 #export SYMPHONYEDA="/usr/local/Simili31"
 #. "$SYMPHONYEDA/bin/init.sh"
