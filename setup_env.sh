@@ -11,17 +11,17 @@ VIMRC="$HOME/.vim/_vimrc"
 rm -rf $HOME/.vim
 cp -r $PWD/.vim $HOME/
 
-#cat > $HOME/.vimrc << EOF
-#if filereadable("$VIMRC")
-#  source $VIMRC
-#endif
-#EOF
+cat > $HOME/.vimrc << EOF
+if filereadable("$VIMRC")
+  source $VIMRC
+endif
+EOF
 #
-#cat > $HOME/.gvimrc << EOF
-#if filereadable("$VIMRC")
-#  source $VIMRC
-#endif
-#EOF
+cat > $HOME/.gvimrc << EOF
+if filereadable("$VIMRC")
+  source $VIMRC
+endif
+EOF
 
 ############ Bash Setup
 
