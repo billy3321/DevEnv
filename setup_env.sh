@@ -9,7 +9,7 @@ PWD=`pwd`
 VIMRC="$HOME/.vim/_vimrc"
 
 rm -rf $HOME/.vim
-cp -r $PWD/_vim $HOME/
+cp -r $PWD/_vim $HOME/.vim
 
 cat > $HOME/.vimrc << EOF
 if filereadable("$VIMRC")
