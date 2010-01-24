@@ -1,0 +1,2 @@
+#SVN EDITOR
+export SVN_EDITOR=vim
