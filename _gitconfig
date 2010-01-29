@@ -16,5 +16,5 @@
 [merge]
     tool = vimdiff
 [github]
-	user = aminzai
+	user = Kang-Min Wang (Aminzai)
 	token = 04da92b216f53b49777cd144dee68d97
