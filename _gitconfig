@@ -1,0 +1,20 @@
+[user]
+    name = Aminzai
+    email = lagunawang@gmail.com
+[alias]
+    co = checkout
+    ci = commit
+    di = diff
+    st = status
+    br = branch
+    re = remote
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[merge]
+    tool = vimdiff
+[github]
+	user = aminzai
+	token = 04da92b216f53b49777cd144dee68d97
