@@ -1,6 +1,3 @@
-[user]
-    name = Aminzai
-    email = lagunawang@gmail.com
 [alias]
     co = checkout
     ci = commit
@@ -15,6 +12,8 @@
     branch = auto
 [merge]
     tool = vimdiff
+[user]
+    name = billy3321
+    email = billy3321@gmail.com
 [github]
-	user = Kang-Min Wang (Aminzai)
-	token = 04da92b216f53b49777cd144dee68d97
+	user = billy3321
