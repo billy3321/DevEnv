@@ -25,6 +25,7 @@ EOF
 
 if ! dpkg -l ctags; then
 sudo apt-get install ctags
+fi
 
 ############ Bash Setup
 
