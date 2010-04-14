@@ -23,6 +23,9 @@ if filereadable("$VIMRC")
 endif
 EOF
 
+if ! dpkg -l ctags; then
+sudo apt-get install ctags
+
 ############ Bash Setup
 
 #rm -rf $HOME/bin
