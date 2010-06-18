@@ -2,3 +2,6 @@ This Repo is my Develop Enviorment setting
 
 That just have vim, bash, zsh setting.
 Maybe I not config good for those :)
+
+emacs setting.
+ptitude install emacs-goodies-el emacs-goodies-extra-el
