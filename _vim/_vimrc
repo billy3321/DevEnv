@@ -16,8 +16,9 @@ set nocompatible
 
 " You can also specify a different font, overriding the default font
 if has('gui')
-  set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 10
+  "set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 10
   "set guifont=Bitstream\ Vera\ Sans\ Mono\ 12
+  set guifont=Monaco\ Vera\ Sans\ Mono\ 12
 endif
 
 " Show Tabline
