@@ -17,22 +17,22 @@
 (setq display-time-day-and-date t)		;mode-line日期格式设置
 (display-time)							;mode-line显示日期与时间
 ;(set-frame-font "WenQuanYi Micro Hei Mono-10")			;英文字体
-(set-frame-font "Terminus-10")			;英文字体
-(set-fontset-font "fontset-default" 'han '("WenQuanYi Bitmap Song")) ;中文字体
+;(set-frame-font "Terminus-10")			;英文字体
+;(set-fontset-font "fontset-default" 'han '("WenQuanYi Bitmap Song")) ;中文字体
 (show-paren-mode 1)													 ;显示配对括号
 (setq show-paren-delay 1)											 ;显示配对括号延迟时间
 (mouse-avoidance-mode 'animate)										 ;鼠标避开靠近的光标
 
 ;;设置主题
-(add-to-list 'load-path "/usr/share/emacs/site-lisp/color-theme")
-(require 'color-theme)
-(eval-after-load "color-theme"
-  '(progn
-	 (color-theme-initialize)
-	 (if window-system
-		 (color-theme-comidia)			;GUI主题
-	   (color-theme-comidia)			;CLI主题
-	 )))
+;(add-to-list 'load-path "/usr/share/emacs/site-lisp/color-theme")
+;(require 'color-theme)
+;(eval-after-load "color-theme"
+;  '(progn
+;	 (color-theme-initialize)
+;	 (if window-system
+;		 (color-theme-comidia)			;GUI主题
+;	   (color-theme-comidia)			;CLI主题
+;	 )))
 
 ;;yasnippet配置
 (add-to-list 'load-path
